@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { Activity, Brain, LayoutDashboard, Stethoscope } from 'lucide-react';
-import InputForm from './src/components/components/inputform'; 
-// Double check if there is an extra nested folder, otherwise:
-import InputForm from './src/components/inputform';
-import Dashboard from './src/components/dashboard';
-import ModelEvaluation from './src/components/modelevaluation';
+import InputForm from './components/InputForm';
+import Dashboard from './components/Dashboard';
+import ModelEvaluation from './components/ModelEvaluation';
 
 enum Tab {
   PREDICT = 'PREDICT',
