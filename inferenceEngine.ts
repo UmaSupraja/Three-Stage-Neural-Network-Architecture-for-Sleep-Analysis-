@@ -1,4 +1,4 @@
-import { PatientData, SleepStage, SleepDisorder, PredictionResult } from '../types';
+import { PatientData, PredictionResult } from './types';
 
 /**
  * MOCK INFERENCE ENGINE
