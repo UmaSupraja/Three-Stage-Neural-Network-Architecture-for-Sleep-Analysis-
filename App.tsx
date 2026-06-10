@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Activity, Brain, LayoutDashboard, Stethoscope } from 'lucide-react';
-import InputForm from './components/InputForm';
-import Dashboard from './components/Dashboard';
-import ModelEvaluation from './components/ModelEvaluation';
-
+import InputForm from './InputForm';
+import Dashboard from './Dashboard';
+import ModelEvaluation from './ModelEvaluation';
 enum Tab {
   PREDICT = 'PREDICT',
   DASHBOARD = 'DASHBOARD',
