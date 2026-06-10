@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { PatientData, PredictionResult } from '../types';
-import { predictSleepDisorder } from '../services/inferenceEngine';
+import { PatientData, PredictionResult } from './types'; // ✅ Corrected root path
+import { predictSleepDisorder } from './inferenceEngine'; // ✅ Corrected root path
 import { Activity, ArrowRight, CheckCircle2, AlertTriangle, Moon, Sun, Brain } from 'lucide-react';
 
 const InputForm: React.FC = () => {
@@ -33,7 +33,7 @@ const InputForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
+    loading(true);
     setResult(null);
     try {
       const prediction = await predictSleepDisorder(formData);
