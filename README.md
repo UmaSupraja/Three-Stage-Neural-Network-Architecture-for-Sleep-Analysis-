@@ -1,45 +1,20 @@
-# 💤 Sleep Disorder Diagnosis Using Deep Learning
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A Multi-Stage Deep Learning Framework for Automated Sleep Disorder Diagnosis using physiological and lifestyle data.
+# Run and deploy your AI Studio app
 
-## 📌 Overview
+This contains everything you need to run your app locally.
 
-This project introduces a three-stage neural network architecture that mimics the clinical diagnostic process for sleep disorder detection.
+View your app in AI Studio: https://ai.studio/apps/drive/1TmmKloMoTwVnC9y2zCV4_FguVNC2FH4e
 
-### Stage 1: Sleep Stage Classification
-- Classifies sleep into REM and Non-REM stages using physiological signals (EEG, ECG, EMG).
+## Run Locally
 
-### Stage 2: Sleep Disorder Prediction
-- Identifies disorders such as:
-  - Insomnia
-  - Sleep Apnea
-  - Narcolepsy
-  - REM Sleep Disorders
+**Prerequisites:**  Node.js
 
-### Stage 3: Personalized Advisory System
-- Generates customized recommendations related to sleep hygiene, lifestyle improvements, and environmental factors.
 
-## 🛠️ Technologies Used
-- Python
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Scikit-Learn
-- Matplotlib
-
-## 📊 Dataset
-Sleep Health and Bio-Signal Dataset from Kaggle containing 5,000 records with demographic, lifestyle, physiological, and sleep-related attributes.
-
-## ✨ Key Features
-- Multi-Stage Deep Learning Architecture
-- REM/Non-REM Classification
-- Multi-Class Disorder Prediction
-- Label Leakage Prevention
-- Personalized Health Recommendations
-- Wearable Device Integration Ready
-
-## 🚀 Future Scope
-- Real-time monitoring using wearable devices
-- Mobile application integration
-- Explainable AI (XAI) support
-- Cloud deployment for healthcare applications
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

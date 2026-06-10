@@ -1,0 +1,5 @@
+{
+  "name": "SleepGuard AI",
+  "description": "A comprehensive three-stage sleep disorder prediction system featuring an interactive prediction engine, data visualization, and ML pipeline documentation.",
+  "requestFramePermissions": []
+}
